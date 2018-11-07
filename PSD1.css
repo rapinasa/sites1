@@ -1,0 +1,201 @@
+.header{
+	position: relative;
+	max-width: 1300px;
+	height:auto;
+	padding:0 0;
+	background: linear-gradient(to bottom, #FEFEFE, #E1E1E1);
+	height: 125px;
+
+}
+
+.logo{
+	position: absolute;
+	top:30px;
+	left:120px;
+	float: left;
+	display:block;
+	width:336px;
+	height:44px;
+background:url("../image/PSD1/Logo.png") no-repeat;
+cursor: pointer;
+}
+
+.menu{
+	float: right;
+box-sizing: border-box;
+}
+.menu a{
+	display:block;
+	box-sizing:border-box;
+}
+
+.menu>li{
+	display:inline-block;
+	cursor: pointer;
+	position: relative;
+	box-sizing: border-box;
+	height:130px;
+	width: 120px;
+	
+}
+/*
+.menu>li>.logout{
+	margin-right: 150px;
+}*/
+.menu>li>img{
+    display: block;
+	position: relative;
+	top: 10px;
+	left: 10px;
+    box-sizing: border-box;
+
+}
+
+.menu li:hover{
+	top:-22px;
+    background:  linear-gradient(to bottom, #FCFCFC, #CAC2C2) 40% 30%;
+	border:1px solid gray;
+	box-sizing: border-box;
+	border-bottom: 3px solid orange;
+}
+
+.content{
+	margin: auto; 
+text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.start {
+	outline: 1px solid black;
+	margin: auto;
+text-align: center;
+}
+.picture_1, .picture_2, .picture_3, .picture_4, .picture_5, .picture_6, .picture_7, .picture_8, .picture_9, .picture_10, .picture_11, .picture_12  {
+	position: relative;
+	width: 20%;
+	height: 220px;
+	padding: 10px;
+	border: 1px solid gray;
+	margin: 20px auto;
+	padding-bottom: 70px;
+	box-shadow: 0 0 5px;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	text-align: center;
+margin-left: 0;
+
+}
+
+.date {
+	position: absolute;
+	left:40px;
+	top:170px;
+	color:white;
+}
+/*.text:after{
+	outline: black;
+	content: "";
+	width: 50px;
+	height: 50px;
+	background: url("../image/PSD1/Gallery.png") no-repeat;
+}*/
+.text p{
+	margin-top:10px;
+	float: left;
+	display: inline-block;
+}
+.text{
+	line-height: 10px;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+}
+
+.inSide a{
+ background-image: url(http://www.webmasters.by/images/articles/css-social-buttons/social-icons-preview.png);
+  background-repeat: no-repeat;
+height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+ cursor: pointer;
+ border-radius: 10px;
+ float: right;
+ 
+}
+
+.inSide .fb{
+	background-position:-72px -40px;
+}
+.inSide .tw{
+	background-position:-35px -40px;
+}
+
+.inSide .linkdn{
+	background-position:-147px -40px;
+}
+
+.fb:hover{
+	background-position:-75px -285px;
+}
+
+.tw:hover{
+	background-position:-35px -285px;
+}
+.linkdn:hover{
+	background-position:-155px -285px;
+
+}
+.inSide p{
+	text-align: left;
+	display: inline-block;
+	color:gray;
+	font-size: 15pt;
+	line-height: 10px;
+}
+
+.footer {
+	outline: 1px solid black;
+}
+.text p{
+	font-family:Arail;
+	font-size: 15pt;
+	color:gray;
+	line-height: 2px;
+}
+
+a.inside:hover {
+    cursor: pointer;
+    position: relative
+}
+a.inside span {
+    display: none
+}
+a.inside:hover span {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: black;
+    left: 0px;
+    margin: 10px;
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    text-decoration: none;
+    color:white;
+}
+/*
+@media (max-width: 600px){
+	.pict{ display: block;}
+}
+@media (max-width: 1000px){
+	.wrapper, .belowSide>a{ flex-direction: column;}
+}
+
+
+p img{
+	max-width: 100%;
+}*/
