@@ -1,80 +1,53 @@
 .header{
-	position: relative;
 	max-width: 1300px;
-	height:auto;
 	padding:0 0;
 	background: linear-gradient(to bottom, #FEFEFE, #E1E1E1);
 	height: 125px;
-
 }
-
 .logo{
-	position: absolute;
-	top:30px;
-	left:120px;
 	float: left;
 	display:block;
 	width:336px;
 	height:44px;
-background:url("../image/PSD1/Logo.png") no-repeat;
-cursor: pointer;
+	background:url("../image/PSD1/Logo.png") no-repeat;
+	cursor: pointer;
 }
-
 .menu{
 	float: right;
-box-sizing: border-box;
+	margin:0;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
-.menu a{
-	display:block;
-	box-sizing:border-box;
-}
-
 .menu>li{
+    margin:auto;
+    padding: 30px;
 	display:inline-block;
 	cursor: pointer;
-	position: relative;
-	box-sizing: border-box;
 	height:130px;
 	width: 120px;
-	
+	text-align: center;
 }
-/*
-.menu>li>.logout{
-	margin-right: 150px;
-}*/
-.menu>li>img{
-    display: block;
-	position: relative;
-	top: 10px;
-	left: 10px;
-    box-sizing: border-box;
-
-}
-
 .menu li:hover{
-	top:-22px;
     background:  linear-gradient(to bottom, #FCFCFC, #CAC2C2) 40% 30%;
 	border:1px solid gray;
-	box-sizing: border-box;
 	border-bottom: 3px solid orange;
 }
-
 .content{
 	margin: auto; 
-text-align: center;
+    text-align: center;
 }
 .clearfix{
 	clear: both;
 }
 .start {
-	outline: 1px solid black;
 	margin: auto;
-text-align: center;
+    text-align: center;
 }
 .picture_1, .picture_2, .picture_3, .picture_4, .picture_5, .picture_6, .picture_7, .picture_8, .picture_9, .picture_10, .picture_11, .picture_12  {
 	position: relative;
 	width: 20%;
-	height: 220px;
+	height: 280px;
 	padding: 10px;
 	border: 1px solid gray;
 	margin: 20px auto;
@@ -84,8 +57,7 @@ text-align: center;
 	float: right;
 	margin-right: 30px;
 	text-align: center;
-margin-left: 0;
-
+    margin-left: 0;
 }
 
 .date {
@@ -94,13 +66,7 @@ margin-left: 0;
 	top:170px;
 	color:white;
 }
-/*.text:after{
-	outline: black;
-	content: "";
-	width: 50px;
-	height: 50px;
-	background: url("../image/PSD1/Gallery.png") no-repeat;
-}*/
+
 .text p{
 	margin-top:10px;
 	float: left;
@@ -111,19 +77,17 @@ margin-left: 0;
 	border-bottom: 1px solid gray;
 	padding: 10px;
 }
-
 .inSide a{
- background-image: url(http://www.webmasters.by/images/articles/css-social-buttons/social-icons-preview.png);
-  background-repeat: no-repeat;
-height: 25px;
-  width: 25px;
-  display: inline-block;
-  margin-right: 20px;
-  margin-top: 10px;
- cursor: pointer;
- border-radius: 10px;
- float: right;
- 
+	background-image: url(http://www.webmasters.by/images/articles/css-social-buttons/social-icons-preview.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	float: right;
 }
 
 .inSide .fb{
@@ -132,21 +96,17 @@ height: 25px;
 .inSide .tw{
 	background-position:-35px -40px;
 }
-
 .inSide .linkdn{
 	background-position:-147px -40px;
 }
-
 .fb:hover{
 	background-position:-75px -285px;
 }
-
 .tw:hover{
 	background-position:-35px -285px;
 }
 .linkdn:hover{
 	background-position:-155px -285px;
-
 }
 .inSide p{
 	text-align: left;
@@ -155,7 +115,6 @@ height: 25px;
 	font-size: 15pt;
 	line-height: 10px;
 }
-
 .footer {
 	outline: 1px solid black;
 }
@@ -165,7 +124,6 @@ height: 25px;
 	color:gray;
 	line-height: 2px;
 }
-
 a.inside:hover {
     cursor: pointer;
     position: relative
@@ -187,6 +145,11 @@ a.inside:hover span {
     text-decoration: none;
     color:white;
 }
+.clearfix>div>a>img{
+ max-width: 150px;
+  max-height: 140px;
+}
+
 /*
 @media (max-width: 600px){
 	.pict{ display: block;}
@@ -194,8 +157,6 @@ a.inside:hover span {
 @media (max-width: 1000px){
 	.wrapper, .belowSide>a{ flex-direction: column;}
 }
-
-
 p img{
 	max-width: 100%;
 }*/
